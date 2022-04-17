@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&amp;amp;display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background-color: #fac981;
+}
+input {
+  background: #ff7b47;
+  border-radius: 37px;
+  min-height: 48px;
+  display: flex;
+  letter-spacing: 0.2px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 36px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.headerInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5vh 0px;
+}
+.logo {
+  font-size: 36px;
+  color: white;
+}
+
+.vkladki {
+  color: white;
+}
+
+.vkladki a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+
+.kartinka {
+  width: 500px;
+  height: 400px;
+  background-size: cover;
+  background-image: url('./images/orange.jpg');
+}
+
+.kartinka-txt {
+  width: 375px;
+}
+
+.kartinka-txt h1 {
+  color: #fac981;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #fac981;
+}
+
+.mainInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px 0px;
+}
+
+.footerInner {
+  background-color: #2c2c2c;
+  padding: 5vh 0px;
+}
+
+.footer-elem {
+  display: flex;
+  justify-content: space-around;
+}
+
+.darkTheme .headerInner {
+  background-color: #1f1f1f;
+}
+
+.darkTheme a {
+  color: #fac981;
+}
+
+.darkTheme .logo {
+  color: #fac981;
+}
+
+.darkTheme .mainInner {
+  background-color: #121212;
+}
+
+.darkTheme p {
+  color: white;
+}
